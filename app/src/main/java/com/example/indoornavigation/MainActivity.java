@@ -54,8 +54,8 @@ public class MainActivity extends AppCompatActivity {
     private String currentLocation;
 
     // Unity connection details - update these as necessary
-    private static final String UNITY_IP = "172.20.10.2"; // Replace with your Unity computer's IP
-    private static final int UNITY_PORT = 8123;            // Replace with the port Unity is listening on
+    private static final String UNITY_IP = "172.20.10.2"; // Unity computer's IP
+    private static final int UNITY_PORT = 8123;            // The port Unity is listening on
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
